@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Combiner.</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main>
+        <h1>Image Combiner</h1>
+        <input type="file" id="imageInput" accept="image/*" multiple class="custom-file-input" />
+        <div>
+            <label for="verticalCheckbox">Combine Vertically</label>
+            <input type="checkbox" id="verticalCheckbox" />
+        </div>
+        <div>
+            <label for="horizontalCheckbox">Combine Horizontally</label>
+            <input type="checkbox" id="horizontalCheckbox" />
+        </div>
+        <button id="combineButton">Combine Images</button>
+        <a id="downloadLink" style="display: none">Download Combined Image</a>
+    </main>
+    <footer>
+        <p>Made by Tural from the ❤️</p>
+    </footer>
+    <script src="image.js"></script>
+</body>
+
+</html>
